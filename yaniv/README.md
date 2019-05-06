@@ -2,7 +2,7 @@
 
 <p><h3>Part 1
   
-Logistic regration in tensorflow
+<h4>Logistic regration in tensorflow
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
