@@ -48,9 +48,29 @@
 | 5 | 0.8635      |    0.9724 |
 | **Average** | **0.91 ![](http://latex.codecogs.com/gif.latex?%5Cpm) 0.05**    |   **0.977 ![](http://latex.codecogs.com/gif.latex?%5Cpm) 0.003** |
 
+**note: 256 HU un each layer and 100 epochs per run.**
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+## Question and Answers:
+
+**1. Did running many more (1,000 vs 100) epochs yield better or worse results for the original multilayer perceptron?**
+
+   **Answer:** Yield better performance, test accuracy of 0.98 vs. 0.97.
+
+
+
+**2. Did the multilayer pereceptron do better or worse than logistic regression when you ran them both for 100 epochs?**
+  
+   **Answer:** Better, test accuracy of 0.97 vs. 0.92.
+
+
+
+**3. Did decreasing the number of hidden layers reduce the success of the multilayer perceptron?**
+
+   **Answer:** Yes, average test accuracy of 0.91 vs.∼0.97.  
+
+
+
+**4. What general lesson might you deduce from your answers to these three questions?**
+
+   **Answer:** from what I examined, I can conclude that more layers increase the average test accuracy of our model and decrease the standard deviation. Which means, that our model is more reliable and steadier with more layers. Additionally, we can see the difference between the scalar plots in part 3 (two layers) and part 4 (one layer). In part 3, the scalar values (coast and validation) are less noisy in comparison to the plots in part 4, means that using more layer will decrease the noise of these values    (based on what I examined).
+
